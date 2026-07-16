@@ -1,0 +1,28 @@
+{
+    "Cards" :[
+        {
+            "id" : 1,
+            "Title" : "Web Devlopment",
+            "Text" : "We build modern and responsive websites",
+            "Image": "/Web.jpg"
+        },
+                {
+            "id" : 2,
+            "Title" : "App Devlopment",
+            "Text" : "We create fast and user friendly application",
+            "Image": "/App.jpg"
+        },
+                {
+            "id" : 3,
+            "Title" : "UI Design",
+            "Text" : "We design clean and modern user interfaces",
+            "Image": "/Ui.jpg"
+        },
+                {
+            "id" : 4,
+            "Title" : "Digital Solutions",
+            "Text" : "We provide smart digital solutions for business",
+            "Image": "/Digital.jpg"
+        }
+    ]
+}
