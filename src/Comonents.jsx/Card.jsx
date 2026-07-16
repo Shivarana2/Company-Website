@@ -7,7 +7,7 @@ function Card() {
   const [card , setCard]= useState([])
  
   useEffect(()=>{
-    axios.get("http://localhost:10000/Cards")
+    axios.get("https://6a58b98a68601fc330e9374a.mockapi.io/cards")
     .then(responce=>{
      console.log(responce.data);
      setCard(responce.data)
