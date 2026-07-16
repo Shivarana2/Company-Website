@@ -7,7 +7,7 @@ function Card() {
   const [card , setCard]= useState([])
  
   useEffect(()=>{
-    axios.get("http://localhost:3000/Cards")
+    axios.get("http://localhost:10000/Cards")
     .then(responce=>{
      console.log(responce.data);
      setCard(responce.data)
